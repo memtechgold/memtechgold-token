@@ -16,3 +16,4 @@
 
 - Move all governance to blockchain/DAO - possibly via Aragon
 - Establish benefits for token holders (free TechCamp tickets, raffles, voting rights, etc...) 
+- Build exchange mechanism into website - possibly with _0x_ protocol.
