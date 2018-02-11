@@ -1,6 +1,6 @@
 pragma solidity ^0.4.17;
 
-import 'zeppelin-solidity/contracts/token/MintableToken.sol';
+import "zeppelin-solidity/contracts/token/ERC20/MintableToken.sol";
 
 contract MemtechGold is MintableToken {
   string public name = "memtech gold";
@@ -9,7 +9,7 @@ contract MemtechGold is MintableToken {
   uint public INITIAL_SUPPLY = 10000;
 
   function MemtechGold() public {
-      totalSupply = INITIAL_SUPPLY;
+      totalSupply_ = INITIAL_SUPPLY;
       balances[msg.sender] = INITIAL_SUPPLY;
   }
 }
